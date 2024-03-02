@@ -1,3 +1,5 @@
+
+
 public class SimpleCalculator {
     private double firstNumber;
     private double secondNumber;
@@ -19,11 +21,10 @@ public class SimpleCalculator {
         //trường giá trị nhân
         firstNumber *= secondNumber;
     }
-    public double getDivisionResult(){
-        if(secondNumber == 0){
+    public double getDivisionResult() {
+        if (secondNumber == 0) {
             return 0;
-        }
-        else{
+        } else {
             firstNumber /= secondNumber;
         }
     }

@@ -12,9 +12,9 @@ public class Main {
         Account bobsAccount = new Account();
 
         bobsAccount.withdrawFunds(100.0);
-        bobsAccount.desposiFunds(250);
+        bobsAccount.depositFunds(250);
         bobsAccount.withdrawFunds(50);
         bobsAccount.withdrawFunds(200);
-        bobsAccount.desposiFunds(100);
+        bobsAccount.depositFunds(100);
     }
 }
