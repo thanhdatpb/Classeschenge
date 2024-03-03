@@ -27,6 +27,7 @@ public class SimpleCalculator {
         } else {
             firstNumber /= secondNumber;
         }
+        return 0;
     }
 
     public void setFirstNumber(double firstNumber) {
