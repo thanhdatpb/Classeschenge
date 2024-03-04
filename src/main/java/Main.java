@@ -13,10 +13,13 @@ public class Main {
         System.out.println(bobsAccount.getNumber());
         System.out.println(bobsAccount.getBalance());
 
-        // bobsAccount.withdrawFunds(100.0);
-        // bobsAccount.depositFunds(250);
-        // bobsAccount.withdrawFunds(50);
-        // bobsAccount.withdrawFunds(200);
-        // bobsAccount.depositFunds(100);s
+         bobsAccount.withdrawFunds(100.0);
+         bobsAccount.depositFunds(250);
+         bobsAccount.withdrawFunds(50);
+         bobsAccount.withdrawFunds(200);
+         bobsAccount.depositFunds(100);
+
+         Account DatAccount= new Account("Thanh Dat", "tthanhdat.pb@gmail.com", "1234");
+        System.out.println("AccountNo: " + DatAccount.getNumber() + "; name " + DatAccount.getCustomerName());
     }
 }
