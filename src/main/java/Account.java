@@ -1,7 +1,7 @@
 
     
 public class Account {
-    private String Number;
+    private String Number; 
     private double balance;
     private String customerName;
     private String customerEmail;
@@ -59,7 +59,7 @@ public class Account {
         return customerEmail;
     }
 
-    public String getGetCustomerPhone() {
+    public String getCustomerPhone() {
         return customerPhone;
     }
 
